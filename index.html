@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập JS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- Bài tập 1 -->
+    <div class="container">
+        <div class="card">
+            <div class="card-header bg-primary d-flex justify-content-center">
+                Tính tiền lương nhân viên
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="ngayLam">Số ngày làm:</label>
+                    <input type="text" id="ngayLam" class="form-control" />
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button onclick="salary()" class="btn btn-success">
+                        Tính nào
+                    </button>
+                </div>
+                <div id="Salary" class="text-center">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bài tập 2 -->
+    <div class="container">
+        <div class="card-header bg-primary d-flex justify-content-center">
+            Tính giá trị trung bình
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <label for="so1">Số thực 1: </label>
+                <input type="text" id="so1" class="form-control" />
+                <label for="so2">Số thực 2: </label>
+                <input type="text" id="so2" class="form-control" />
+                <label for="so3">Số thực 3: </label>
+                <input type="text" id="so3" class="form-control" />
+                <label for="so4">Số thực 4: </label>
+                <input type="text" id="so4" class="form-control" />
+                <label for="so5">Số thực 5: </label>
+                <input type="text" id="so5" class="form-control" />
+            </div>
+            <div class="d-flex justify-content-center">
+                <button onclick="soThuc()" class="btn btn-success">
+                    Tính giá trị trung bình
+                </button>
+            </div>
+            <div id="soThuc" class="text-center">
+
+            </div>
+        </div>
+    </div>
+    <!-- Bài tập 3 -->
+    <div class="container">
+        <div class="card">
+            <div class="card-header bg-primary d-flex justify-content-center">
+                USD --> VND
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="soTien">Giá trị tiền:</label>
+                    <input type="text" id="soTien" class="form-control" />
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button onclick="doiTien()" class="btn btn-success">
+                        Đổi tiền
+                    </button>
+                </div>
+                <div id="doiTien" class="text-center">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bài tập 4 -->
+    <div class="container">
+        <div class="card">
+            <div class="card-header bg-primary d-flex justify-content-center">
+                Chu vi và Diện tích hình chữ nhật
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="chieuDai">Chiều Dài:</label>
+                    <input type="text" id="chieuDai" class="form-control" />
+                    <label for="chieuRong">Chiều Rộng:</label>
+                    <input type="text" id="chieuRong" class="form-control" />
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button onclick="congThuc()" class="btn btn-success">
+                        Tính chu vi và diện tích
+                    </button>
+                </div>
+                <div id="content" class="text-center">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bài tập 5 -->
+    <div class="container">
+        <div class="card">
+            <div class="card-header bg-primary d-flex justify-content-center">
+                Tính tổng 2 ký số
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="number">Số:</label>
+                    <input type="text" id="number" class="form-control" />
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button onclick="tongKySo()" class="btn btn-success">
+                        Tổng 2 ký số
+                    </button>
+                </div>
+                <div id="Number" class="text-center">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
